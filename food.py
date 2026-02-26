@@ -40,4 +40,11 @@ class Food(Turtle):
 #move the food to a new random location, making sure it does not appear on top of the snake 
  def refresh(self, occupied_positions: set[tuple[float, float]], color: str = "red")
 
-    
+# making sure the food does not spawn on the snake 
+    def refresh(self, occupied_positions):
+    while True:
+        x = random.randrange(-280, 280, 20)
+        y = random.randrange(-280, 280, 20)
+
+        if (x, y) not in occupied_positions:
+            self.goto(x, y)
