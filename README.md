@@ -18,10 +18,15 @@ There is a snake starting off with zero points in a 2D plane. It will move acros
 ## Features
 
 Feature 1 : Snake 
-DESCRIPTION SNAKE 
+
+The snake will code for the lentgth of the snake as it eats more food, the color of it (grey and blue), how it moves, left, right, up and down and the movement of the body, this one will follow the track of the head.
+
 Feature 2 : Food. 
-The food will code for the amount of points that each fruit has and the time and place of appearance of each of them
+
+The food will code for different types of food. the amount of points that each fruit has and the time and place of appearance of each of them
+
 Feature 3 : Screen.
+
 The screen codes for the size of the platform where the snake moves, also will code for the scoreboard points. It will state when the game needs to restart and when to start again.
 
 ## Who is it for?
@@ -74,7 +79,7 @@ Solution : Once the changes were done on a branch we saved them and coded on the
 
 Challenge 3 : Connecting the GitHub repository with VS code. 
 
-Solution : To solve this issue we opened VS code and click on the option "Clone Repository". From GitHub, we copy the link to the reporitory of interest and paste it on VS code. Then the Read.me and LICENCE would show up on the files. 
+Solution : To solve this issue we opened VS code and click on the option "Clone Repository". From GitHub, we copy the link to the reporitory of interest and paste it on VS code, the repository must be save in a file in the computer for accesibility. Then the Read.me and LICENCE would show up on the files. 
 
 ...
 
