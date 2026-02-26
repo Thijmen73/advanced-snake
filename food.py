@@ -44,16 +44,18 @@ self.refresh(set())
     def refresh(self, occupied_positions):
     
     # the different food types, and the points they give, including the sparkly strawberry which gives 5 points instead of 3 
+ 
+ #pick a food typ
  fruit_type = random.choice(["orange", "plum", "strawberry", "sparkly"])
 
     if fruit_type == "orange":
         self.color("orange")
-        self.points = 3
+        self.points = 2
         self.shapesize(0.5, 0.5)
 
     elif fruit_type == "plum":
         self.color("purple")
-        self.points = 3
+        self.points = 2
         self.shapesize(0.5, 0.5)
 
     elif fruit_type == "strawberry":
@@ -65,10 +67,13 @@ self.refresh(set())
         self.color("gold")
         self.points = 5
         self.shapesize(0.7, 0.7)
-        
+    
+
+    #snap to the grid, and make sure its avoids the snake body
     while True:
         x = random.randrange(-280, 280, 20)
         y = random.randrange(-280, 280, 20)
 
         if (x, y) not in occupied_positions:
             self.goto(x, y)
+            break
