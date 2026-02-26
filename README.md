@@ -105,4 +105,4 @@ https://github.com/Thijmen73/advanced-snake/blob/main/LICENSE
 
 # Contributions
 
-For every aspect of this project, we work on the project together, nobody works on a specific part.
+All group members contributed to every aspect of the project, tasks were not divided among us.
