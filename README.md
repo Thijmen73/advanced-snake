@@ -55,6 +55,9 @@ To run the game put on your terminal: python main.py. You will control the snake
 The starting point of the idea to create a game was that all members of this group were beginners in coding. Therefore, we wanted a project that could start very simple, with a functional foundation, but that we could improve depending on our time and capacities. The aim of this approach was to be sure to be able to deliver a functional project by the end of the project
 Additionally, creating a game sounded like an exciting project, and the prospect of being able to play a game we had built ourselves was motivating.
 
+# What makes it special/different?
+This project differes from the original game by the amount of objects involve and the appearances of them
+
 # Limitations and Challenges 
 
 The most difficult : Getting to know the applications (Visual code, Github and python) was a challenge. Being able to program from scratch was the most complicated part of our project.
