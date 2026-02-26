@@ -88,10 +88,5 @@ Our project uses the MIT license :
 https://github.com/Thijmen73/advanced-snake/blob/main/LICENSE 
 
 # Contributions
-- Angela
-- Noa
-- Mariyah
-- Julien
-- Nicolas
-- Thijmen
-- Julie
+
+For every aspect of this project, we work on the project together, nobody works on a specific part.
