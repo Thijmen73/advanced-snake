@@ -59,8 +59,6 @@ All coding was performed within Visual Studio Code (VS Code), where we implement
 ## How to play 
 To run the game put on your terminal: python main.py. You will control the snake with your keyboard pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again.
 
-...
-
 # Why did we chose this project ?  
 
 The starting point of the idea to create a game was that all members of this group were beginners in coding. Therefore, we wanted a project that could start very simple, with a functional foundation, but that we could improve depending on our time and capacities. The aim of this approach was to be sure to be able to deliver a functional project by the end of the project.
@@ -74,9 +72,7 @@ This project differes from the original game by the amount of objects involve an
 The most difficult : Getting to know the applications (Visual code, Github and python) was a challenge. Being able to program from scratch was the most complicated part of our project.
 
 ## Technical limitations?
-Challenge 1 : Creating the branches and managing them 
-
-Solution : The problem was that we could not manage to create branches and to make them accessible for everyone on GitHub.
+Challenge 1 : Creating the branches and managing them.
 Solution : We realised that we had to create the branches directly on the GitHub repository. And then on VS code, we went into the main branch, and clicked on the origin/ the new branch, and then type on the terminal Git Fetch --all. 
 
 Challenge 2 : Pulling and saving changes 
@@ -86,8 +82,6 @@ Solution : Once the changes were done on a branch we saved them and coded on the
 Challenge 3 : Connecting the GitHub repository with VS code. 
 
 Solution : To solve this issue we opened VS code and click on the option "Clone Repository". From GitHub, we copy the link to the reporitory of interest and paste it on VS code, the repository must be save in a file in the computer for accesibility. Then the Read.me and LICENCE would show up on the files. 
-
-...
 
 
 # Future Improvements 
