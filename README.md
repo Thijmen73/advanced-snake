@@ -12,33 +12,32 @@ Reinterpretation of a well-known arcade game : Snake
 
 ## Overview  
 
-There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and star from scratch. 
+There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
 
 ## Features
 
 Feature 1 : Snake 
 
-The snake will code for the lentgth of the snake as it eats more food, the color of it (grey and blue), how it moves, left, right, up and down and the movement of the body, this one will follow the track of the head.
+The snake will code for its length, as it eats more food the snake will grow longer, it will also code the color of it (grey and blue), how it moves (left, right, up and down) and the movement of the body, this one will follow the path of the head.
 
 Feature 2 : Food. 
 
-Feature is the position of it, it appears somewhere on the screen and stays there until the snake eats it. 
+States the position of it : it appears somewhere on the screen and stays there until the snake eats it. 
 How it looks : shape, color, the timing of its apparation, random location on the screen.
-there are different types of food : red, blue, and gold, each of them codes for a different score. 
-Red ones count for one.
+There are different types of food : red, blue, and gold, each of them codes for a different score. 
+Red ones count for 1.
 Blue for 3. 
 Gold for 5.
 
 Feature 3 : Screen.
 
 The screen codes for the size of the platform where the snake moves, also codes for the scoreboard points. It states when the game needs to restart and when to start again.
-Also the color of the screen, how does it look like : black.
-Checks for collision, if collision : game restarts. Self-collision or with the edges. 
-
+Also the color of the screen: how does it look like : black.
+Checks for collision, if collision : game restarts. Self-collision or a collision with the edges. 
 
 ## Who is it for?
 
-The game was designed to be accessible to a broad audience. It is simple enough to be used by anyone interested in playing with. 
+The game was designed to be accessible to a broad audience. It is simple enough to be used by anyone interested in playing with it. 
 
 ## Installation
 1. Python SetUp: 
@@ -58,7 +57,7 @@ All coding was performed within Visual Studio Code (VS Code), where we implement
 - VS code
 
 ## How to play 
-To run the game put on your terminal: python main.py. You will control the snake with your keyboard, pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again.
+To run the game put on your terminal: python main.py. You will control the snake with your keyboard pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again.
 
 ...
 
