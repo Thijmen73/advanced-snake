@@ -67,11 +67,11 @@ Challenge 1 : Creating the branches and get in VS code
 Solution : HOW DID WE SOLVE IT ? 
 
 Challenge 2 : Pulling and saving changes 
-Solution : HOW DID WE SOLVE IT ?
+Solution : Once the changes were done on a branch we saved them and coded on the terminal the following: "git add ." (to prepare the save the changes), "git commint -m "Desired message"" (save the changes with a message) and finally "git push" (to send the changes to GitHub were we could all see the new branch and edit the content of it). Finally to see the changes on visual code, we typed on the terminal "git pull"
 
-Challenge 3 : Connecting the GitHub repository with VS code 
+Challenge 3 : Connecting the GitHub repository with VS code. 
+Solution : To solve this issue we opened VS code and click on the option "Clone Repository". From GitHub, we copy the link to the reporitory of interest and paste it on VS code. Then the Read.me and LICENCE would show up on the files. 
 
-Explanation : We faced difficulties when we tried to connect the GitHub 
 ...
 
 
