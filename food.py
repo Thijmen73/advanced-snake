@@ -45,7 +45,7 @@ self.refresh(set())
     
     # the different food types, and the points they give, including the sparkly strawberry which gives 5 points instead of 3 
  
- #pick a food typ
+ #pick a food type
  fruit_type = random.choice(["orange", "plum", "strawberry", "sparkly"])
 
     if fruit_type == "orange":
@@ -63,6 +63,7 @@ self.refresh(set())
         self.points = 3
         self.shapesize(0.5, 0.5)
 
+#SPARKLY STRAWBERRY, YESSSS
     elif fruit_type == "sparkly":
         self.color("gold")
         self.points = 5
