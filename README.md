@@ -60,13 +60,17 @@ Additionally, creating a game sounded like an exciting project, and the prospect
 The most difficult : Getting to know the applications (Visual code, Github and python) was a challenge. Being able to program from scratch was the most complicated part of our project.
 
 ## Technical limitations?
-Challenge 1 : DESCRIPTION 
+Challenge 1 : Creating the branches and get in VS code 
 Solution : HOW DID WE SOLVE IT ? 
 
-Challenge 2 : DESCRIPTION
-Solution : HOW DID WE SOLVE IT ? 
+Challenge 2 : Pulling and saving changes 
+Solution : HOW DID WE SOLVE IT ?
 
+Challenge 3 : Connecting the GitHub repository with VS code 
+
+Explanation : We faced difficulties when we tried to connect the GitHub 
 ...
+
 
 # Future Improvements 
 
