@@ -12,7 +12,7 @@ Reinterpretation of a well-known arcade game : Snake
 
 ## Overview  
 
-There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, raising the scoreboard differently. If the snake touches its own body or edges it will lose, restarting the game and starting with zero points again.
+There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and star from scratch. 
 
 ## Features
 
