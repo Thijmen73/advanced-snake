@@ -92,9 +92,16 @@ Solution : To solve this issue we opened VS code and click on the option "Clone 
 
 # Future Improvements 
 
-- The plane that the snakes move in could be made in 3D, this will make possible the application of  teleportation to another platform or stage.
-- It could incorporate new obstacles as the level increases.
-- The addition of one more snake could be possible as well.  
+**Screen** :
+- Make the snake move in three dimensions.
+- Allow the snake to teleport across the screen.
+- Add more obstacles than just the screen edges, obstacles could spawn randomly within the game area.
+
+**Snake** :
+- Increase the difficulty by adding a second snake playing at the same time : one snake could be controlled with the left hand, and the other with the right hand.
+  
+**Food** : 
+- Add different types of food with different effects : some could reduce the score, others could modify the snake's apperance (making it shrink or grow). 
 
 # License 
 
