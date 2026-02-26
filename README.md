@@ -29,6 +29,14 @@ The screen codes for the size of the platform where the snake moves, also will c
 The game was designed to be accessible to a broad audience. It is simple enough to be used by anyone interested in playing with. 
 
 ## Installation
+1. Python SetUp: 
+Python served as the primary programming language for implementing the Snake game in this project. A recent version of Python (≥ 3.8) was installed. 
+To check if the installation was successful, the following commands were executed in the terminal (PowerShell): python --version  or python3 --version 
+To verify that pip (a python package) was also installed, and for these we coded: pip --version or pip3 --version.
+2. Project Folder:
+To create a new project folder we coded for: cd venv_test and in order to create an isolated virtual environment we typed in the terminal: python -m venv .venv_test This creates a folder containing a self-contained Python environment. To activate the virtual environment: .\.venv_test\Scripts\Activate.ps1
+3. Development:
+All coding was performed within Visual Studio Code (VS Code), where we implemented GitHub instructions and coded for the three classes chosen for this project: snake, food and screen. To facilitate editing and contribution control, the project repository was cloned from GitHub. This allowed us to do: create a new branch from main for each class/feature and enabled group editing, this was done by coding in the terminal: git add . (prepared / staged the changes), git commit -m  “Add new features” (save the changes with a message describing what you did) and git push (to send my changes to GitHub so everyone can see them)
 
 ### Prerequisites 
 - Python 3.8 or higher 
