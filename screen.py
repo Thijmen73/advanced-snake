@@ -28,6 +28,8 @@ class Scoreboard(Turtle):
         super().__init__()
         self.score = 0
         self.high_score = 0
+        self.score_history={0:0}
+        self.round_number=0
 
         self.hideturtle()
         self.penup()
@@ -55,6 +57,8 @@ class Scoreboard(Turtle):
 
     # reset score when the snake crashes and dies
     def reset(self):
+        self.score_history.append({"round": self.round_number, "score": self.score})
+        self.round_number += 1
         self.score = 0
         self._draw()
 
