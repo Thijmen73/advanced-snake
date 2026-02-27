@@ -10,9 +10,9 @@ class GameSessionLogger:
     def log_round(self, round_number: int, score: int):
         self.records.append({
             "player": self.player_name,
-            "round": round_number,
-            "score": score,
-            "timestamp": datetime.now()
+            "round": int (round_number),
+            "score": int (score),
+            "timestamp": datetime.now() .isoformat (timespc="seconds")
         })
 
     def to_dataframe(self):
