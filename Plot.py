@@ -2,6 +2,7 @@ import turtle
 import time
 import random
 import matplotlib.pyplot as plt
+from snake import Snake
 
 # Game setup
 
@@ -16,22 +17,8 @@ total_movement = 0
 game_start_time = time.time()
 
 # snake
-segments = []
-
-def create_segment(position):
-    segment = turtle.Turtle("square")
-    segment.color("white")
-    segment.penup()
-    segment.goto(position)
-    segments.append(segment)
-
-starting_positions = [(0, 0), (-20, 0), (-40, 0)]
-
-for pos in starting_positions:
-    create_segment(pos)
-
-head = segments[0]
-head.direction = "stop"
+jerry=Snake()
+jerry.create_snake()
 
 # food summary
 
