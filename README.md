@@ -12,7 +12,7 @@ Reinterpretation of a well-known arcade game : Snake
 
 ## Overview  
 
-There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
+There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat different fruits, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
 
 ## Features
 
@@ -24,10 +24,12 @@ Feature 2 : Food.
 
 States the position of it : it appears somewhere on the screen and stays there until the snake eats it. 
 How it looks : shape, color, the timing of its apparation, random location on the screen.
-There are different types of food : red, blue, and gold, each of them codes for a different score. 
-Red ones count for 1.
-Blue for 3. 
-Gold for 5.
+There are different types of fruit: orange (orange), plum (purple) strawberry(red) and sparkly strawberry (gold) 
+
+orange - 2 points
+plum - 2 points
+strawberry - 3 points
+sparkly strawberry - 5 points 
 
 Feature 3 : Screen.
 
