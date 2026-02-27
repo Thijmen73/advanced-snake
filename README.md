@@ -6,7 +6,7 @@ Reinterpretation of a well-known arcade game : Snake
 
 **Date**: P4 2026
 
-**Team Members**: Angela, Noa, Mariyah, Julien, Nicolas, Thijmen & Julie
+**Team Members**: Angela, Noa, Mariya, Julien, Nicolas, Thijmen & Julie
 
 # Description
 
@@ -50,7 +50,7 @@ To create a new project folder we coded for: cd venv_test and in order to create
 All coding was performed within Visual Studio Code (VS Code), where we implemented GitHub instructions and coded for the three classes chosen for this project: snake, food and screen. To facilitate editing and contribution control, the project repository was cloned from GitHub. This allowed us to do: create a new branch from main for each class/feature and enabled group editing, this was done by coding in the terminal: git add . (prepared / staged the changes), git commit -m  “Add new features” (save the changes with a message describing what you did) and git push (to send my changes to GitHub so everyone can see them)
 
 ### Prerequisites 
-- Python 3.8 or higher 
+- Python 3.8 until 3.13 
 - pip (Python package manager)
 - Virtual Environment
 - GitHub
