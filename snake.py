@@ -15,6 +15,7 @@ class Snake:
     def create_snake(self):
         for position in STARTING_POSITIONS:
             self.add_segment(position)
+            self.head.setheading(RIGHT)
     @property
     def _colors(self):
         return self.__colors
