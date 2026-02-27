@@ -10,6 +10,7 @@
 from __future__ import annotations
 
 import random
+import tkinter 
 from turtle import Turtle
 
 class Food(Turtle):
