@@ -12,30 +12,28 @@ Reinterpretation of a well-known arcade game : Snake
 
 ## Overview  
 
-There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat different fruits, each of which have different points, as the snake eats them the scoreboard will rise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
+There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which has different points, as the snake hits them, the score on the scoreboard will increase. If the snake collides with itself or an edge the game will restart, this will make the player lose every point they earned and start from scratch. 
 
 ## Features
 
 Feature 1 : Snake 
 
-The snake will code for its length, as it eats more food the snake will grow longer, it will also code the color of it (grey and blue), how it moves (left, right, up and down) and the movement of the body, this one will follow the path of the head.
+The snake is coded to control its length, as it eats more food the snake will grow longer, it will also code the color of it (grey and blue), how it moves (left, right, up and down) and the movement of the body, this one will follow the path of the head.
 
 Feature 2 : Food. 
 
-States the position of it : it appears somewhere on the screen and stays there until the snake eats it. 
-How it looks : shape, color, the timing of its apparation, random location on the screen.
-There are different types of fruit: orange (orange), plum (purple) strawberry(red) and sparkly strawberry (gold) 
-
-orange - 2 points
-plum - 2 points
-strawberry - 3 points
-sparkly strawberry - 5 points 
+States its position : it appears somewhere on the screen and stays there until the snake eats it. 
+How it looks : shape, color, the timing of its appearance, random location on the screen.
+There are different types of food : red, blue, and gold, each of them corresponds to a different score. 
+Red ones count for 1.
+Blue for 3. 
+Gold for 5.
 
 Feature 3 : Screen.
 
-The screen codes for the size of the platform where the snake moves, also codes for the scoreboard points. It states when the game needs to restart and when to start again.
-Also the color of the screen: how does it look like : black.
-Checks for collision, if collision : game restarts. Self-collision or a collision with the edges. 
+The screen codes for the size of the platform where the snake moves, and also codes for the scoreboard points. It states when the game needs to restart and when to start again.
+Also the color of the screen: What does it look like: black.
+Checks for collision, if a collision occurs : game restarts. Self-collision or a collision with the edges. 
 
 ## Who is it for?
 
@@ -59,11 +57,11 @@ All coding was performed within Visual Studio Code (VS Code), where we implement
 - VS code
 
 ## How to play 
-To run the game put on your terminal: python main.py. You will control the snake with your keyboard pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again.
+To run the game you must open your terminal: python main.py. You will control the snake with your keyboard pressing the arrow keys (up, down, left or right). The aim of the game is to eat as much food as possible to increase the score. Different types of food will surface and have different score values with predetermined surfacing times to make it a challenge. You will have to avoid touching the edges and your (snake) own body as this ends your game makes you restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid restarting the game again.
 
-# Why did we chose this project ?  
+# Why did we choose this project ?  
 
-The starting point of the idea to create a game was that all members of this group were beginners in coding. Therefore, we wanted a project that could start very simple, with a functional foundation, but that we could improve depending on our time and capacities. The aim of this approach was to be sure to be able to deliver a functional project by the end of the project.
+The starting point of the idea to create a game was that all members of this group were beginners in coding. Therefore, we wanted a project that could start very simple, with a functional foundation, but that we could improve depending on our time and capabilities. The aim of this approach was to be sure to be able to deliver a functional project by the end of the project.
 Additionally, creating a game sounded like an exciting project, and the prospect of being able to play a game we had built ourselves was motivating.
 
 # What makes it special/different?
