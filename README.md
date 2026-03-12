@@ -12,7 +12,7 @@ Reinterpretation of a well-known arcade game : Snake
 
 ## Overview  
 
-There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake its them the  scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
+There is a snake starting off with zero points in a 2D plane. It will move across a fixed screen and it will eat food, each of which have different points, as the snake eats them the scoreboard will raise. If the snake collisions with itself or an edge the game will restart, this will make the player lose every point and start from scratch. 
 
 ## Features
 
@@ -57,7 +57,8 @@ All coding was performed within Visual Studio Code (VS Code), where we implement
 - VS code
 
 ## How to play 
-To run the game put on your terminal: python main.py. You will control the snake with your keyboard pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again.
+The classes from the different files were integrated in the rungame.py file which is what you run to play the game. 
+You will control the snake with your keyboard pressing up, down, left or right. The aim of the game is to eat as much food as possible to increase the score. Different types of food will appear and have different score points and time appearance to make it a challenge. You will have to avoid touching the edges and its own body, this will lead to failing and having to restart the game with 0 points. As the snake eats, its length will grow, making it more difficult to avoid starting the game again. The highest score achieved by player is displayed, and you can restart the game. 
 
 # Why did we chose this project ?  
 
