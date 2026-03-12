@@ -68,3 +68,27 @@ class Snake:
         for index, segment in enumerate(self.segments):
             color_index = index % len(self._colors)
             segment.color(self._colors[color_index])
+
+    def reset(self):
+        """Reset snake to initial state"""
+        try:
+            # Clear existing segments more carefully
+            for segment in self.segments:
+                segment.goto(1000, 1000)  # Move off screen
+                segment.clear()
+                segment.hideturtle()  # Hide the turtle completely
+            
+            self.segments.clear()
+            
+            # Recreate snake
+            self.create_snake()
+            self.head = self.segments[0]
+            self.head.setheading(RIGHT)
+            self._alternate_colors()
+        except Exception as e:
+            print(f"Error resetting snake: {e}")
+            # If reset fails, at least try to continue with basic setup
+            self.segments.clear()
+            self.create_snake()
+            self.head = self.segments[0]
+            self.head.setheading(RIGHT)
